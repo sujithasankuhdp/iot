@@ -112,7 +112,7 @@ instances:
         - cdsw_master
         - cdpdc
       exact_count: 1
-      instance_type: 	m1.xlarge.ram
+      instance_type: "{{ instance_type | default('m1.xlarge.ram') }}"
       bootstrap: |
         #!/bin/bash
         
