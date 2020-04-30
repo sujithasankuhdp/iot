@@ -1,0 +1,44 @@
+---
+- name: cloud_instance
+  src: https://github.infra.cloudera.com/GOES/cloud_instance
+  scm: git
+
+- name: install_mariadb
+  src: https://github.infra.cloudera.com/GOES/install_mariadb
+  scm: git
+
+- name: krb_client
+  src: https://github.infra.cloudera.com/GOES/krb_client
+  scm: git
+
+- name: krb_server
+  src: https://github.infra.cloudera.com/GOES/krb_server
+  scm: git
+
+- name: cm_server
+  src: https://github.infra.cloudera.com/GOES/cm_server_temp
+  scm: git
+
+- name: cm_agent
+  src: https://github.infra.cloudera.com/GOES/cm_agent
+  scm: git
+
+- name: cm_databases
+  src: https://github.infra.cloudera.com/GOES/cm_databases
+  scm: git
+
+- name: os_config
+  src: https://github.infra.cloudera.com/GOES/os_config
+  scm: git
+
+- name: mysqlconnectorjava
+  src: https://github.infra.cloudera.com/GOES/mysqlconnectorjava
+  scm: git
+
+- name: efm
+  src: https://github.infra.cloudera.com/GOES/efm
+  scm: git
+
+- name: minifi
+  src: https://github.infra.cloudera.com/GOES/minifi
+  scm: git
